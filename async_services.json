@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name"      : "web",
+            "script"    : "index.js",
+            "watch"     : "index.js",
+        },
+        {
+            "name"      : "a_service",
+            "script"    : "a_service/web.js",
+            "watch"     : "a_service/web.js"
+        },
+        {
+            "name"      : "b_service",
+            "script"    : "b_service/web.js",
+            "watch"     : "b_service/web.js"
+        }
+    ]
+}
